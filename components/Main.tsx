@@ -10,7 +10,7 @@ export default function Main() {
         Que onda mufa?
       </Text>
       <Text className="text-primary-whiteCardBg text-lg">
-        Rastrea tu asistencia y fijate si sos mufa o no.
+        Rastrea tu asistencia y fijate si sos mufa o no
       </Text>
       <View className="w-full flex flex-row gap-5 justify-center">
         <MainCard>

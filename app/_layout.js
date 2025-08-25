@@ -8,7 +8,10 @@ export default function Layout() {
   const insetts = useSafeAreaInsets();
 
   return (
-    <View style={{ flex: 1, paddingTop: insetts.top }}>
+    <View
+      style={{ flex: 1, paddingTop: insetts.top }}
+      className="bg-primary-greenBg"
+    >
       <SafeAreaProvider>
         <StatusBar style="light" />
         <Slot />
