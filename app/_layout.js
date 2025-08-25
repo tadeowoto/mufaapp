@@ -1,5 +1,5 @@
 import { StatusBar, View } from "react-native";
-import { Slot } from "expo-router";
+import { Slot, Tabs } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import "../global.css";
