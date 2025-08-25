@@ -1,9 +1,8 @@
-import { View, Text } from "react-native";
-
+import Main from "../components/Main.tsx";
 export default function Index() {
   return (
-    <View>
-      <Text className=" text-3xl">Mufaapp</Text>
-    </View>
+    <>
+      <Main />
+    </>
   );
 }
